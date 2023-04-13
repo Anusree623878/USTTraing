@@ -1,0 +1,8 @@
+D:\UST_Training\Day9\InterfacesExample\bin\Debug\InterfacesExample.exe.config
+D:\UST_Training\Day9\InterfacesExample\bin\Debug\InterfacesExample.exe
+D:\UST_Training\Day9\InterfacesExample\bin\Debug\InterfacesExample.pdb
+D:\UST_Training\Day9\InterfacesExample\obj\Debug\InterfacesExample.csproj.AssemblyReference.cache
+D:\UST_Training\Day9\InterfacesExample\obj\Debug\InterfacesExample.csproj.SuggestedBindingRedirects.cache
+D:\UST_Training\Day9\InterfacesExample\obj\Debug\InterfacesExample.csproj.CoreCompileInputs.cache
+D:\UST_Training\Day9\InterfacesExample\obj\Debug\InterfacesExample.exe
+D:\UST_Training\Day9\InterfacesExample\obj\Debug\InterfacesExample.pdb
