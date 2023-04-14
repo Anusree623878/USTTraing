@@ -1,0 +1,8 @@
+D:\UST_Training\Day4\Stringlength\bin\Debug\Stringlength.exe.config
+D:\UST_Training\Day4\Stringlength\bin\Debug\Stringlength.exe
+D:\UST_Training\Day4\Stringlength\bin\Debug\Stringlength.pdb
+D:\UST_Training\Day4\Stringlength\obj\Debug\Stringlength.csproj.AssemblyReference.cache
+D:\UST_Training\Day4\Stringlength\obj\Debug\Stringlength.csproj.SuggestedBindingRedirects.cache
+D:\UST_Training\Day4\Stringlength\obj\Debug\Stringlength.csproj.CoreCompileInputs.cache
+D:\UST_Training\Day4\Stringlength\obj\Debug\Stringlength.exe
+D:\UST_Training\Day4\Stringlength\obj\Debug\Stringlength.pdb

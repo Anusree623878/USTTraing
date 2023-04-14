@@ -1,0 +1,8 @@
+D:\UST_Training\Day4\Sorting\obj\Debug\Sorting.csproj.AssemblyReference.cache
+D:\UST_Training\Day4\Sorting\obj\Debug\Sorting.csproj.SuggestedBindingRedirects.cache
+D:\UST_Training\Day4\Sorting\obj\Debug\Sorting.csproj.CoreCompileInputs.cache
+D:\UST_Training\Day4\Sorting\bin\Debug\Sorting.exe.config
+D:\UST_Training\Day4\Sorting\bin\Debug\Sorting.exe
+D:\UST_Training\Day4\Sorting\bin\Debug\Sorting.pdb
+D:\UST_Training\Day4\Sorting\obj\Debug\Sorting.exe
+D:\UST_Training\Day4\Sorting\obj\Debug\Sorting.pdb
