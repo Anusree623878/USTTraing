@@ -1,0 +1,8 @@
+D:\UST_Training\Day3\DecimalNumber\bin\Debug\DecimalNumber.exe.config
+D:\UST_Training\Day3\DecimalNumber\bin\Debug\DecimalNumber.exe
+D:\UST_Training\Day3\DecimalNumber\bin\Debug\DecimalNumber.pdb
+D:\UST_Training\Day3\DecimalNumber\obj\Debug\DecimalNumber.csproj.AssemblyReference.cache
+D:\UST_Training\Day3\DecimalNumber\obj\Debug\DecimalNumber.csproj.SuggestedBindingRedirects.cache
+D:\UST_Training\Day3\DecimalNumber\obj\Debug\DecimalNumber.csproj.CoreCompileInputs.cache
+D:\UST_Training\Day3\DecimalNumber\obj\Debug\DecimalNumber.exe
+D:\UST_Training\Day3\DecimalNumber\obj\Debug\DecimalNumber.pdb

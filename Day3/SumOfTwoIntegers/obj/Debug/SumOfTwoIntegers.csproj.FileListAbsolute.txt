@@ -1,0 +1,8 @@
+D:\UST_Training\Day3\SumOfTwoIntegers\bin\Debug\SumOfTwoIntegers.exe.config
+D:\UST_Training\Day3\SumOfTwoIntegers\bin\Debug\SumOfTwoIntegers.exe
+D:\UST_Training\Day3\SumOfTwoIntegers\bin\Debug\SumOfTwoIntegers.pdb
+D:\UST_Training\Day3\SumOfTwoIntegers\obj\Debug\SumOfTwoIntegers.csproj.AssemblyReference.cache
+D:\UST_Training\Day3\SumOfTwoIntegers\obj\Debug\SumOfTwoIntegers.csproj.SuggestedBindingRedirects.cache
+D:\UST_Training\Day3\SumOfTwoIntegers\obj\Debug\SumOfTwoIntegers.csproj.CoreCompileInputs.cache
+D:\UST_Training\Day3\SumOfTwoIntegers\obj\Debug\SumOfTwoIntegers.exe
+D:\UST_Training\Day3\SumOfTwoIntegers\obj\Debug\SumOfTwoIntegers.pdb

@@ -1,0 +1,8 @@
+D:\UST_Training\Day3\ParaConstructor\bin\Debug\ParaConstructor.exe.config
+D:\UST_Training\Day3\ParaConstructor\bin\Debug\ParaConstructor.exe
+D:\UST_Training\Day3\ParaConstructor\bin\Debug\ParaConstructor.pdb
+D:\UST_Training\Day3\ParaConstructor\obj\Debug\ParaConstructor.csproj.AssemblyReference.cache
+D:\UST_Training\Day3\ParaConstructor\obj\Debug\ParaConstructor.csproj.SuggestedBindingRedirects.cache
+D:\UST_Training\Day3\ParaConstructor\obj\Debug\ParaConstructor.csproj.CoreCompileInputs.cache
+D:\UST_Training\Day3\ParaConstructor\obj\Debug\ParaConstructor.exe
+D:\UST_Training\Day3\ParaConstructor\obj\Debug\ParaConstructor.pdb

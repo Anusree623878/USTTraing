@@ -1,0 +1,8 @@
+D:\UST_Training\Day3\ParameterizedConstructor\bin\Debug\ParameterizedConstructor.exe.config
+D:\UST_Training\Day3\ParameterizedConstructor\bin\Debug\ParameterizedConstructor.exe
+D:\UST_Training\Day3\ParameterizedConstructor\bin\Debug\ParameterizedConstructor.pdb
+D:\UST_Training\Day3\ParameterizedConstructor\obj\Debug\ParameterizedConstructor.csproj.AssemblyReference.cache
+D:\UST_Training\Day3\ParameterizedConstructor\obj\Debug\ParameterizedConstructor.csproj.SuggestedBindingRedirects.cache
+D:\UST_Training\Day3\ParameterizedConstructor\obj\Debug\ParameterizedConstructor.csproj.CoreCompileInputs.cache
+D:\UST_Training\Day3\ParameterizedConstructor\obj\Debug\ParameterizedConstructor.exe
+D:\UST_Training\Day3\ParameterizedConstructor\obj\Debug\ParameterizedConstructor.pdb
