@@ -1,0 +1,8 @@
+D:\UST_Training\Day2\AbsoluteDiff\bin\Debug\AbsoluteDiff.exe.config
+D:\UST_Training\Day2\AbsoluteDiff\bin\Debug\AbsoluteDiff.exe
+D:\UST_Training\Day2\AbsoluteDiff\bin\Debug\AbsoluteDiff.pdb
+D:\UST_Training\Day2\AbsoluteDiff\obj\Debug\AbsoluteDiff.csproj.AssemblyReference.cache
+D:\UST_Training\Day2\AbsoluteDiff\obj\Debug\AbsoluteDiff.csproj.SuggestedBindingRedirects.cache
+D:\UST_Training\Day2\AbsoluteDiff\obj\Debug\AbsoluteDiff.csproj.CoreCompileInputs.cache
+D:\UST_Training\Day2\AbsoluteDiff\obj\Debug\AbsoluteDiff.exe
+D:\UST_Training\Day2\AbsoluteDiff\obj\Debug\AbsoluteDiff.pdb
