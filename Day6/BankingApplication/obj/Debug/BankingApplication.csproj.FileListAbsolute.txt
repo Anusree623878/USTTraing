@@ -1,0 +1,16 @@
+D:\UST_Training\Day5\BankingApplication\bin\Debug\BankingApplication.exe.config
+D:\UST_Training\Day5\BankingApplication\bin\Debug\BankingApplication.exe
+D:\UST_Training\Day5\BankingApplication\bin\Debug\BankingApplication.pdb
+D:\UST_Training\Day5\BankingApplication\obj\Debug\BankingApplication.csproj.AssemblyReference.cache
+D:\UST_Training\Day5\BankingApplication\obj\Debug\BankingApplication.csproj.SuggestedBindingRedirects.cache
+D:\UST_Training\Day5\BankingApplication\obj\Debug\BankingApplication.csproj.CoreCompileInputs.cache
+D:\UST_Training\Day5\BankingApplication\obj\Debug\BankingApplication.exe
+D:\UST_Training\Day5\BankingApplication\obj\Debug\BankingApplication.pdb
+D:\UST_Training\Day6\BankingApplication\bin\Debug\BankingApplication.exe.config
+D:\UST_Training\Day6\BankingApplication\bin\Debug\BankingApplication.exe
+D:\UST_Training\Day6\BankingApplication\bin\Debug\BankingApplication.pdb
+D:\UST_Training\Day6\BankingApplication\obj\Debug\BankingApplication.csproj.AssemblyReference.cache
+D:\UST_Training\Day6\BankingApplication\obj\Debug\BankingApplication.csproj.SuggestedBindingRedirects.cache
+D:\UST_Training\Day6\BankingApplication\obj\Debug\BankingApplication.csproj.CoreCompileInputs.cache
+D:\UST_Training\Day6\BankingApplication\obj\Debug\BankingApplication.exe
+D:\UST_Training\Day6\BankingApplication\obj\Debug\BankingApplication.pdb
