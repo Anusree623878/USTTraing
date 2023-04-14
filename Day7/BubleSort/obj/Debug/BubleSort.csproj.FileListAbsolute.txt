@@ -1,0 +1,8 @@
+D:\UST_Training\Day4\BubleSort\bin\Debug\BubleSort.exe.config
+D:\UST_Training\Day4\BubleSort\bin\Debug\BubleSort.exe
+D:\UST_Training\Day4\BubleSort\bin\Debug\BubleSort.pdb
+D:\UST_Training\Day4\BubleSort\obj\Debug\BubleSort.csproj.AssemblyReference.cache
+D:\UST_Training\Day4\BubleSort\obj\Debug\BubleSort.csproj.SuggestedBindingRedirects.cache
+D:\UST_Training\Day4\BubleSort\obj\Debug\BubleSort.csproj.CoreCompileInputs.cache
+D:\UST_Training\Day4\BubleSort\obj\Debug\BubleSort.exe
+D:\UST_Training\Day4\BubleSort\obj\Debug\BubleSort.pdb

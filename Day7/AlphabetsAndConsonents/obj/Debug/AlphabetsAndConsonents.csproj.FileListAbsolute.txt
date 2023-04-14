@@ -1,0 +1,8 @@
+D:\UST_Training\Day4\AlphabetsAndConsonents\bin\Debug\AlphabetsAndConsonents.exe.config
+D:\UST_Training\Day4\AlphabetsAndConsonents\bin\Debug\AlphabetsAndConsonents.exe
+D:\UST_Training\Day4\AlphabetsAndConsonents\bin\Debug\AlphabetsAndConsonents.pdb
+D:\UST_Training\Day4\AlphabetsAndConsonents\obj\Debug\AlphabetsAndConsonents.csproj.AssemblyReference.cache
+D:\UST_Training\Day4\AlphabetsAndConsonents\obj\Debug\AlphabetsAndConsonents.csproj.SuggestedBindingRedirects.cache
+D:\UST_Training\Day4\AlphabetsAndConsonents\obj\Debug\AlphabetsAndConsonents.csproj.CoreCompileInputs.cache
+D:\UST_Training\Day4\AlphabetsAndConsonents\obj\Debug\AlphabetsAndConsonents.exe
+D:\UST_Training\Day4\AlphabetsAndConsonents\obj\Debug\AlphabetsAndConsonents.pdb
