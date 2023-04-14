@@ -1,0 +1,15 @@
+D:\UST_Training\Day2\Program1\Program1\bin\Debug\net6.0\Program1.exe
+D:\UST_Training\Day2\Program1\Program1\bin\Debug\net6.0\Program1.deps.json
+D:\UST_Training\Day2\Program1\Program1\bin\Debug\net6.0\Program1.runtimeconfig.json
+D:\UST_Training\Day2\Program1\Program1\bin\Debug\net6.0\Program1.dll
+D:\UST_Training\Day2\Program1\Program1\bin\Debug\net6.0\Program1.pdb
+D:\UST_Training\Day2\Program1\Program1\obj\Debug\net6.0\Program1.csproj.AssemblyReference.cache
+D:\UST_Training\Day2\Program1\Program1\obj\Debug\net6.0\Program1.GeneratedMSBuildEditorConfig.editorconfig
+D:\UST_Training\Day2\Program1\Program1\obj\Debug\net6.0\Program1.AssemblyInfoInputs.cache
+D:\UST_Training\Day2\Program1\Program1\obj\Debug\net6.0\Program1.AssemblyInfo.cs
+D:\UST_Training\Day2\Program1\Program1\obj\Debug\net6.0\Program1.csproj.CoreCompileInputs.cache
+D:\UST_Training\Day2\Program1\Program1\obj\Debug\net6.0\Program1.dll
+D:\UST_Training\Day2\Program1\Program1\obj\Debug\net6.0\refint\Program1.dll
+D:\UST_Training\Day2\Program1\Program1\obj\Debug\net6.0\Program1.pdb
+D:\UST_Training\Day2\Program1\Program1\obj\Debug\net6.0\Program1.genruntimeconfig.cache
+D:\UST_Training\Day2\Program1\Program1\obj\Debug\net6.0\ref\Program1.dll
