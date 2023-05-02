@@ -1,0 +1,8 @@
+D:\UST_Training\Day20\EventPartialDemo\bin\Debug\EventPartialDemo.exe.config
+D:\UST_Training\Day20\EventPartialDemo\bin\Debug\EventPartialDemo.exe
+D:\UST_Training\Day20\EventPartialDemo\bin\Debug\EventPartialDemo.pdb
+D:\UST_Training\Day20\EventPartialDemo\obj\Debug\EventPartialDemo.csproj.AssemblyReference.cache
+D:\UST_Training\Day20\EventPartialDemo\obj\Debug\EventPartialDemo.csproj.SuggestedBindingRedirects.cache
+D:\UST_Training\Day20\EventPartialDemo\obj\Debug\EventPartialDemo.csproj.CoreCompileInputs.cache
+D:\UST_Training\Day20\EventPartialDemo\obj\Debug\EventPartialDemo.exe
+D:\UST_Training\Day20\EventPartialDemo\obj\Debug\EventPartialDemo.pdb

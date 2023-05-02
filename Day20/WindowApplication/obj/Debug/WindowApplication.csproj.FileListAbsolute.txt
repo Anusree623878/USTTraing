@@ -1,0 +1,8 @@
+D:\UST_Training\Day20\WindowApplication\bin\Debug\WindowApplication.exe.config
+D:\UST_Training\Day20\WindowApplication\bin\Debug\WindowApplication.exe
+D:\UST_Training\Day20\WindowApplication\bin\Debug\WindowApplication.pdb
+D:\UST_Training\Day20\WindowApplication\obj\Debug\WindowApplication.csproj.AssemblyReference.cache
+D:\UST_Training\Day20\WindowApplication\obj\Debug\WindowApplication.csproj.SuggestedBindingRedirects.cache
+D:\UST_Training\Day20\WindowApplication\obj\Debug\WindowApplication.csproj.CoreCompileInputs.cache
+D:\UST_Training\Day20\WindowApplication\obj\Debug\WindowApplication.exe
+D:\UST_Training\Day20\WindowApplication\obj\Debug\WindowApplication.pdb

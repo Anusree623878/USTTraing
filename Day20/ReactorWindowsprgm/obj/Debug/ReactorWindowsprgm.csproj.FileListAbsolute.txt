@@ -1,0 +1,8 @@
+D:\UST_Training\Day20\ReactorWindowsprgm\bin\Debug\ReactorWindowsprgm.exe.config
+D:\UST_Training\Day20\ReactorWindowsprgm\bin\Debug\ReactorWindowsprgm.exe
+D:\UST_Training\Day20\ReactorWindowsprgm\bin\Debug\ReactorWindowsprgm.pdb
+D:\UST_Training\Day20\ReactorWindowsprgm\obj\Debug\ReactorWindowsprgm.csproj.AssemblyReference.cache
+D:\UST_Training\Day20\ReactorWindowsprgm\obj\Debug\ReactorWindowsprgm.csproj.SuggestedBindingRedirects.cache
+D:\UST_Training\Day20\ReactorWindowsprgm\obj\Debug\ReactorWindowsprgm.csproj.CoreCompileInputs.cache
+D:\UST_Training\Day20\ReactorWindowsprgm\obj\Debug\ReactorWindowsprgm.exe
+D:\UST_Training\Day20\ReactorWindowsprgm\obj\Debug\ReactorWindowsprgm.pdb
