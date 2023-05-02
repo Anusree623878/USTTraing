@@ -1,0 +1,8 @@
+D:\UST_Training\Day18\sortedList\bin\Debug\sortedList.exe.config
+D:\UST_Training\Day18\sortedList\bin\Debug\sortedList.exe
+D:\UST_Training\Day18\sortedList\bin\Debug\sortedList.pdb
+D:\UST_Training\Day18\sortedList\obj\Debug\sortedList.csproj.AssemblyReference.cache
+D:\UST_Training\Day18\sortedList\obj\Debug\sortedList.csproj.SuggestedBindingRedirects.cache
+D:\UST_Training\Day18\sortedList\obj\Debug\sortedList.csproj.CoreCompileInputs.cache
+D:\UST_Training\Day18\sortedList\obj\Debug\sortedList.exe
+D:\UST_Training\Day18\sortedList\obj\Debug\sortedList.pdb
