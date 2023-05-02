@@ -1,0 +1,156 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil Consolas;}{\f1\fnil\fcharset0 Calibri;}{\f2\fnil\fcharset0 CIDFont+F2;}{\f3\fnil\fcharset0 Consolas;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;\red128\green128\blue128;\red255\green0\blue0;\red0\green128\blue0;\red255\green0\blue255;}
+{\*\generator Riched20 10.0.19041}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\cf1\f0\fs19\lang9 create\cf2  \cf1 table\cf2  CLIENT_MASTER\cf1  \cf3 (\cf2\par
+CLIENT_NO \cf1 VARCHAR\cf3 (\cf2 6\cf3 )\cf2  \cf1 PRIMARY\cf2  \cf1 KEY\cf2  \cf3 NOT\cf2  \cf3 NULL,\cf2\par
+\cf1 NAME\cf2  \cf1 VARCHAR\cf3 (\cf2 20\cf3 )\cf2  \cf3 NOT\cf2  \cf3 NULL,\cf2\par
+ADDRESS1 \cf1 VARCHAR\cf3 (\cf2 30\cf3 ),\cf2\par
+ADDRESS2 \cf1 VARCHAR\cf3 (\cf2 30\cf3 ),\cf2\par
+CITY \cf1 VARCHAR\cf3 (\cf2 15\cf3 ),\cf2\par
+PINCODE \cf1 Numeric\cf3 (\cf2 8\cf3 ),\cf2\par
+\cf1 STATE\cf2  \cf1 VARCHAR\cf3 (\cf2 15\cf3 ),\cf2\par
+BALDUE \cf1 Numeric\cf3 (\cf2 10\cf3 ,\cf2 2\cf3 )\cf2\par
+\cf3 );\cf2\par
+\par
+\par
+\par
+\cf1 insert\cf2  \cf1 into\cf2\tab\tab CLIENT_MASTER\cf1  \cf3 (\cf2 CLIENT_NO\cf3 ,\cf1 NAME\cf3 ,\cf2 ADDRESS1\cf3 ,\cf2 ADDRESS2\cf3 ,\cf2 CITY\cf3 ,\cf1 STATE\cf3 ,\cf2 BALDUE\cf3 )\cf2  \par
+\cf1 values \cf3 (\cf4 'C0001'\cf3 ,\cf4 'Arun'\cf3 ,\cf4 'kolayad'\cf3 ,\cf4 'kannavam'\cf3 ,\cf4 'kannur'\cf3 ,\cf4 'kerala'\cf3 ,\cf2 15000\par
+\cf3 );\cf2\par
+\par
+\par
+\par
+\cf1 insert\cf2  \cf1 into\cf2\tab\tab CLIENT_MASTER\cf1  \cf3 (\cf2 CLIENT_NO\cf3 ,\cf1 NAME\cf3 ,\cf2 ADDRESS1\cf3 ,\cf2 ADDRESS2\cf3 ,\cf2 CITY\cf3 ,\cf1 STATE\cf3 ,\cf2 BALDUE\cf3 )\cf2  \par
+\cf1 values \cf3 (\cf4 'C0002'\cf3 ,\cf4 'Kavya'\cf3 ,\cf4 'kuttupuzha'\cf3 ,\cf4 'Eritty'\cf3 ,\cf4 'Eduki'\cf3 ,\cf4 'kerala'\cf3 ,\cf2 17000\cf3 ),\cf2\par
+\cf3 (\cf4 'C0003'\cf3 ,\cf4 'Alia'\cf3 ,\cf4 'kanpur'\cf3 ,\cf4 'mumbai'\cf3 ,\cf4 'maharashtra'\cf3 ,\cf4 'kerala'\cf3 ,\cf2 25000\cf3 ),\cf2\par
+\cf1  \cf3 (\cf4 'C0004'\cf3 ,\cf4 'kiran'\cf3 ,\cf4 'kolayad'\cf3 ,\cf4 'kannavam'\cf3 ,\cf4 'kannur'\cf3 ,\cf4 'kerala'\cf3 ,\cf2 17000\cf3 ),\cf2\par
+\cf1   \cf3 (\cf4 'C0005'\cf3 ,\cf4 'maneesh'\cf3 ,\cf4 'erumbpalam'\cf3 ,\cf4 'kuttandu'\cf3 ,\cf4 'allappy'\cf3 ,\cf4 'kerala'\cf3 ,\cf2 18000\cf3 );\cf2\par
+\par
+  \cf1 insert\cf2  \cf1 into\cf2\tab\tab CLIENT_MASTER\cf1  \cf3 (\cf2 CLIENT_NO\cf3 ,\cf1 NAME\cf3 ,\cf2 ADDRESS1\cf3 ,\cf2 ADDRESS2\cf3 ,\cf2 CITY\cf3 ,\cf1 STATE\cf3 ,\cf2 BALDUE\cf3 )\cf2  \par
+\cf1 values \cf3 (\cf4 'C0006'\cf3 ,\cf4 'Ivan bayross'\cf3 ,\cf4 'thirupur'\cf3 ,\cf4 'coyambathur'\cf3 ,\cf4 'srk street'\cf3 ,\cf4 'thamizhnadu'\cf3 ,\cf2 15000\cf3 );\cf2\par
+\par
+\par
+\cf1 select\cf2  \cf3 *\cf1 from\cf2  CLIENT_MASTER\cf3 ;\cf2\par
+\par
+\par
+ \cf1 create\cf2  \cf1 table\cf2  PRODUCT_MASTER\cf1  \cf3 (\cf2\par
+PRODUCT_NO \cf1 VARCHAR\cf3 (\cf2 6\cf3 )\cf2  \cf1 PRIMARY\cf2  \cf1 KEY\cf2  \cf3 NOT\cf2  \cf3 NULL,\cf2\par
+\cf1 DESCRIPTION\cf2  \cf1 VARCHAR\cf3 (\cf2 20\cf3 )\cf2  \cf3 NOT\cf2  \cf3 NULL,\cf2\par
+PROFITPERC \cf1 NUMERIC\cf3 (\cf2 4\cf3 ,\cf2 2\cf3 )\cf2  \cf3 NOT\cf2  \cf3 NULL,\cf2\par
+UNITMEASURE \cf1 VARCHAR\cf3 (\cf2 30\cf3 )\cf2  \cf3 NOT\cf2  \cf3 NULL,\cf2\par
+QTYONHAND \cf1 NUMERIC\cf3 (\cf2 8\cf3 )\cf2  \cf3 NOT\cf2  \cf3 NULL,\cf2\par
+REORDERLVL \cf1 Numeric\cf3 (\cf2 8\cf3 )\cf2  \cf3 NOT\cf2  \cf3 NULL,\cf2\par
+SELLPRICE \cf1 NUMERIC\cf3 (\cf2 8\cf3 ,\cf2 2\cf3 )\cf2  \cf3 NOT\cf2  \cf3 NULL\cf2  \cf1 CHECK\cf3 (\cf2 SELLPRICE\cf3 !=\cf2 0\cf3 ),\cf2\par
+COSTPRICE \cf1 Numeric\cf3 (\cf2 8\cf3 ,\cf2 2\cf3 )\cf2  \cf3 NOT\cf2  \cf3 NULL\cf2  \cf1 CHECK\cf3 (\cf2 COSTPRICE \cf3 !=\cf2 0\cf3 ),\cf2\par
+\cf3 );\cf2\par
+\par
+\cf1 INSERT\cf2  \cf1 INTO\cf2  PRODUCT_MASTER\cf1  \cf3 (\cf2 PRODUCT_NO\cf3 ,\cf1 DESCRIPTION\cf3 ,\cf2 PROFITPERC\cf3 ,\cf2 UNITMEASURE\cf3 ,\cf2 QTYONHAND\cf3 ,\cf2 REORDERLVL\cf3 ,\cf2 SELLPRICE\cf3 ,\cf2 COSTPRICE\cf3 )\cf2  \cf1 VALUES\cf2\par
+\cf3 (\cf4 'P0001'\cf3 ,\cf4 'T-SHIRTS'\cf3 ,\cf2 5\cf3 ,\cf4 'PIECE'\cf3 ,\cf2 60\cf3 ,\cf2 50\cf3 ,\cf2 560\cf3 ,\cf2 440\cf3 ),\cf2\par
+\cf3 (\cf4 'P0002'\cf3 ,\cf4 'SHIRTS'\cf3 ,\cf2 15\cf3 ,\cf4 'PIECE'\cf3 ,\cf2 110\cf3 ,\cf2 200\cf3 ,\cf2 780\cf3 ,\cf2 640\cf3 ),\cf2\par
+\cf3 (\cf4 'P0003'\cf3 ,\cf4 'froke'\cf3 ,\cf2 5\cf3 ,\cf4 'PIECE'\cf3 ,\cf2 80\cf3 ,\cf2 260\cf3 ,\cf2 980\cf3 ,\cf2 740\cf3 ),\cf2\par
+\cf3 (\cf4 'P0004'\cf3 ,\cf4 'Midi'\cf3 ,\cf2 15\cf3 ,\cf4 'PIECE'\cf3 ,\cf2 110\cf3 ,\cf2 200\cf3 ,\cf2 780\cf3 ,\cf2 640\cf3 ),\cf2\par
+\cf3 (\cf4 'P0005'\cf3 ,\cf4 'Pants'\cf3 ,\cf2 10\cf3 ,\cf4 'PIECE'\cf3 ,\cf2 70\cf3 ,\cf2 230\cf3 ,\cf2 980\cf3 ,\cf2 440\cf3 );\cf2\par
+\par
+\cf1 select\cf2  \cf3 *\cf2  \cf1 from\cf2  PRODUCT_MASTER\cf3 ;\cf2\par
+\par
+\cf1 CREATE\cf2  \cf1 TABLE\cf2  SALESMAN_MASTER\cf1  \cf3 (\cf2\par
+SALESMANNO \cf1 VARCHAR\cf3 (\cf2 6\cf3 )\cf2  \cf1 PRIMARY\cf2  \cf1 KEY\cf2  \cf3 NOT\cf2  \cf3 NULL,\cf2\par
+SALESMANNAME \cf1 VARCHAR\cf3 (\cf2 20\cf3 )\cf2  \cf3 NOT\cf2  \cf3 NULL,\cf2\par
+ADDRESS1 \cf1 VARCHAR\cf3 (\cf2 30\cf3 )\cf2  \cf3 NOT\cf2  \cf3 NULL,\cf2\par
+ADDRESS2 \cf1 VARCHAR\cf3 (\cf2 30\cf3 )\cf2  \cf3 NOT\cf2  \cf3 NULL,\cf2\par
+CITY \cf1 VARCHAR\cf3 (\cf2 20\cf3 ),\cf2\par
+PINCODE \cf1 NUMERIC\cf3 (\cf2 8\cf3 ),\cf2\par
+\cf1 STATE\cf2  \cf1 VARCHAR\cf3 (\cf2 20\cf3 ),\cf2\par
+SALAMT \cf1 NUMERIC\cf3 (\cf2 8\cf3 ,\cf2 2\cf3 )\cf2  \cf3 NOT\cf2  \cf3 NULL\cf2  \cf1 CHECK\cf3 (\cf2 SALAMT \cf3 !=\cf2 0\cf3 ),\cf2\par
+TGTTOGET \cf1 NUMERIC\cf3 (\cf2 6\cf3 ,\cf2 2\cf3 ),\cf2\par
+YTDSALES \cf1 NUMERIC\cf3 (\cf2 6\cf3 ,\cf2 2\cf3 ),\cf2\par
+REMARKS \cf1 VARCHAR\cf3 (\cf2 60\cf3 )\cf2\par
+\cf3 );\cf2\par
+\par
+\cf1 INSERT\cf2  \cf1 INTO\cf2  Salesman_Master\cf1   \cf3 (\cf2 SALESMANNO\cf3 ,\cf2  SALESMANNAME\cf3 ,\cf2 ADDRESS1\cf3 ,\cf2 ADDRESS2\cf3 ,\cf2 CITY\cf3 ,\cf2 PINCODE\cf3 ,\cf1 STATE\cf3 ,\cf2 SALAMT\cf3 ,\cf2 TGTTOGET\cf3 ,\cf2 YTDSALES\cf3 ,\cf2 REMARKS\cf3 )\cf2  \par
+\cf1 VALUES \cf3 (\cf4 'S00001'\cf3 ,\cf2  \cf4 'Aman'\cf3 ,\cf2  \cf4 'A/14'\cf3 ,\cf2  \cf4 'Worli'\cf3 ,\cf2  \cf4 'Mumbai'\cf3 ,\cf2  400002\cf3 ,\cf2  \cf4 'Maharashtra'\cf3 ,\cf2  3000\cf3 ,\cf2  100\cf3 ,\cf2  50\cf3 ,\cf2  \cf4 'Good'\cf3 ),\cf2\par
+\cf3 (\cf4 'S00002'\cf3 ,\cf2  \cf4 'KIRAN'\cf3 ,\cf2  \cf4 'B/15'\cf3 ,\cf2  \cf4 'kIOrli'\cf3 ,\cf2  \cf4 'Mumbai'\cf3 ,\cf2  400005\cf3 ,\cf2  \cf4 'Maharashtra'\cf3 ,\cf2  3500\cf3 ,\cf2  110\cf3 ,\cf2  70\cf3 ,\cf2  \cf4 ' VERY Good'\cf3 ),\cf2\par
+\cf3 (\cf4 'S00003'\cf3 ,\cf2  \cf4 'LAKSHAYA'\cf3 ,\cf2  \cf4 'AC/16'\cf3 ,\cf2  \cf4 'CUSAT'\cf3 ,\cf2  \cf4 'ERNAKULAM'\cf3 ,\cf2  400008\cf3 ,\cf2  \cf4 'KERALA'\cf3 ,\cf2  4000\cf3 ,\cf2  190\cf3 ,\cf2  90\cf3 ,\cf2  \cf4 'Good'\cf3 ),\cf2\par
+\cf3 (\cf4 'S00004'\cf3 ,\cf2  \cf4 'SOORYA'\cf3 ,\cf2  \cf4 'AK/19'\cf3 ,\cf2  \cf4 'KOLATHUR'\cf3 ,\cf2  \cf4 'KAZHAKUTTAM'\cf3 ,\cf2  400010\cf3 ,\cf2  \cf4 'MADHYAPRADHESH'\cf3 ,\cf2  3800\cf3 ,\cf2  200\cf3 ,\cf2  150\cf3 ,\cf2  \cf4 ' AVAERAGE'\cf3 ),\cf2\par
+\cf3 (\cf4 'S00005'\cf3 ,\cf2  \cf4 'ASWIN'\cf3 ,\cf2  \cf4 'AT/34'\cf3 ,\cf2  \cf4 'KOLYAD'\cf3 ,\cf2  \cf4 'KULATHOOR'\cf3 ,\cf2  400020\cf3 ,\cf2  \cf4 'Maharashtra'\cf3 ,\cf2  3800\cf3 ,\cf2  150\cf3 ,\cf2  80\cf3 ,\cf2  \cf4 'Good'\cf3 );\cf2\par
+\par
+\cf1 SELECT\cf2  \cf3 *\cf2  \cf1 FROM\cf2  SALESMAN_MASTER\cf3 ;\cf2\par
+\par
+\cf1 CREATE\cf2  \cf1 TABLE\cf2  SALES_ORDER\cf3 (\cf2\par
+ORDERNO \cf1 VARCHAR\cf3 (\cf2 6\cf3 )\cf2  \cf1 PRIMARY\cf2  \cf1 KEY\cf2  \cf3 NOT\cf2  \cf3 NULL,\cf2\par
+CLIENTNO \cf1 VARCHAR\cf3 (\cf2 6\cf3 )\cf2  \cf1 FOREIGN\cf2  \cf1 KEY\cf2  \cf1 REFERENCES\cf2  CLIENT_MASTER\cf3 (\cf2 CLIENT_NO\cf3 ),\cf2\par
+ORDERDATE \cf1 DATE\cf3 ,\cf2\par
+DELYADDR \cf1 VARCHAR\cf3 (\cf2 25\cf3 ),\cf2\par
+SALESMANNO \cf1 VARCHAR\cf3 (\cf2 6\cf3 )\cf2  \cf1 FOREIGN\cf2  \cf1 KEY\cf2  \cf1 REFERENCES\cf2  SALESMAN_MASTER\cf3 (\cf2 SALESMANNO\cf3 ),\cf2\par
+DELYTYPE \cf1 CHAR\cf3 (\cf2 1\cf3 )\cf2  \cf1 CHECK\cf3 (\cf2 DELYTYPE \cf3 =\cf4 'P'\cf2  \cf3 OR\cf2  DELYTYPE\cf3 =\cf4 'F'\cf3 ),\cf2\par
+BILLEDYN \cf1 CHAR\cf3 (\cf2 1\cf3 )\cf2  \cf1 CHECK\cf3 (\cf2 BILLEDYN\cf3 =\cf4 'Y'\cf2  \cf3 OR\cf2  BILLEDYN\cf3 =\cf4 'N'\cf3 ),\cf2\par
+DELYDATE \cf1 date\cf3 ,\cf2\par
+ORDERSTATUS \cf1 VARCHAR\cf3 (\cf2 10\cf3 )\cf2  \cf1 Check \cf3 (\cf2 ORDERSTATUS\cf3 =\cf4 'In Process'\cf2  \cf3 or\cf2\par
+ ORDERSTATUS\cf3 =\cf4 'Fulfilled'\cf2  \cf3 or\cf2  ORDERSTATUS\cf3 =\cf2  \cf4 'Backorder'\cf2\par
+\cf3 or\cf2   ORDERSTATUS\cf3 =\cf4 'Cancelled'\cf3 ));\cf2\par
+\par
+\cf1 INSERT\cf2  \cf1 INTO\cf2  Sales_Order\cf1  \cf3 (\cf2 OrderNo\cf3 ,\cf2  OrderDate\cf3 ,\cf2  ClientNo\cf3 ,\cf2  DelyType\cf3 ,\cf2  BilledYn\cf3 ,\cf2  SalesmanNo\cf3 ,\cf2  DelyDate\cf3 ,\cf2  OrderStatus\cf3 ,\cf2 DELYADDR\cf3 )\cf2\par
+\cf1 VALUES\cf3 (\cf4 'O19001'\cf3 ,\cf2  \cf4 '21-june-02'\cf3 ,\cf2  \cf4 'C0001'\cf3 ,\cf2  \cf4 'F'\cf3 ,\cf2  \cf4 'N'\cf3 ,\cf2  \cf4 'S00001'\cf3 ,\cf2  \cf4 '20-july-02'\cf3 ,\cf2  \cf4 'In Process'\cf3 ,\cf4 'mumbai'\cf3 );\cf2\par
+\cf1 INSERT\cf2  \cf1 INTO\cf2  Sales_Order\cf1  \cf3 (\cf2 OrderNo\cf3 ,\cf2  OrderDate\cf3 ,\cf2  ClientNo\cf3 ,\cf2  DelyType\cf3 ,\cf2  BilledYn\cf3 ,\cf2  SalesmanNo\cf3 ,\cf2  DelyDate\cf3 ,\cf2  OrderStatus\cf3 ,\cf2 DELYADDR\cf3 )\cf2\par
+\cf1 VALUES\cf3 (\cf4 'O19002'\cf3 ,\cf2  \cf4 '21-july-02'\cf3 ,\cf2  \cf4 'C0002'\cf3 ,\cf2  \cf4 'P'\cf3 ,\cf2  \cf4 'Y'\cf3 ,\cf2  \cf4 'S00001'\cf3 ,\cf2  \cf4 '20-AUGUST-02'\cf3 ,\cf2  \cf4 'In Process'\cf3 ,\cf4 'kannur'\cf3 );\cf2\par
+\cf1 INSERT\cf2  \cf1 INTO\cf2  Sales_Order\cf1  \cf3 (\cf2 OrderNo\cf3 ,\cf2  OrderDate\cf3 ,\cf2  ClientNo\cf3 ,\cf2  DelyType\cf3 ,\cf2  BilledYn\cf3 ,\cf2  SalesmanNo\cf3 ,\cf2  DelyDate\cf3 ,\cf2  OrderStatus\cf3 ,\cf2 DELYADDR\cf3 )\cf2\par
+\cf1 VALUES\cf2\par
+\cf3 (\cf4 'O19003'\cf3 ,\cf2  \cf4 '21-AUGUST-02'\cf3 ,\cf2  \cf4 'C0003'\cf3 ,\cf2  \cf4 'F'\cf3 ,\cf2  \cf4 'N'\cf3 ,\cf2  \cf4 'S00003'\cf3 ,\cf2  \cf4 '20-MARCH-02'\cf3 ,\cf2  \cf4 'BACKORDER'\cf3 ,\cf4 'maharashtra'\cf3 );\cf2\par
+\cf1 INSERT\cf2  \cf1 INTO\cf2  Sales_Order\cf1  \cf3 (\cf2 OrderNo\cf3 ,\cf2  OrderDate\cf3 ,\cf2  ClientNo\cf3 ,\cf2  DelyType\cf3 ,\cf2  BilledYn\cf3 ,\cf2  SalesmanNo\cf3 ,\cf2  DelyDate\cf3 ,\cf2  OrderStatus\cf3 ,\cf2 DELYADDR\cf3 )\cf2\par
+\cf1 VALUES\cf2\par
+\cf3 (\cf4 'O19004'\cf3 ,\cf4 '21-SEPTEMBER-03'\cf3 ,\cf4 'C0004'\cf3 ,\cf4 'P'\cf3 ,\cf4 'Y'\cf3 ,\cf4 'S00004'\cf3 ,\cf4 '20-AUGUST-02'\cf3 ,\cf4 'CANCELLED'\cf3 ,\cf4 'alapuzha'\cf3 );\cf2\par
+\cf1 INSERT\cf2  \cf1 INTO\cf2  Sales_Order\cf1  \cf3 (\cf2 OrderNo\cf3 ,\cf2  OrderDate\cf3 ,\cf2  ClientNo\cf3 ,\cf2  DelyType\cf3 ,\cf2  BilledYn\cf3 ,\cf2  SalesmanNo\cf3 ,\cf2  DelyDate\cf3 ,\cf2  OrderStatus\cf3 ,\cf2 DELYADDR\cf3 )\cf2\par
+\cf1 VALUES\cf3 (\cf4 'O19005'\cf3 ,\cf2  \cf4 '21-OCTOBER-05'\cf3 ,\cf2  \cf4 'C0005'\cf3 ,\cf2  \cf4 'F'\cf3 ,\cf2  \cf4 'N'\cf3 ,\cf2  \cf4 'S00005'\cf3 ,\cf2  \cf4 '20-july-05'\cf3 ,\cf2  \cf4 'FULFILLED'\cf3 ,\cf4 'maharashtra'\cf3 );\cf2\par
+\cf1 SELECT\cf2  \cf3 *\cf2  \cf1 FROM\cf2  Sales_Order\cf3 ;\cf2\par
+\par
+\par
+\cf1 CREATE\cf2  \cf1 TABLE\cf2  SALES_ORDER_DETAILS\cf3 (\cf2\par
+ORDERNO \cf1 VARCHAR\cf3 (\cf2 6\cf3 )\cf2  \cf1 FOREIGN\cf2  \cf1 KEY\cf2   \cf1 REFERENCES\cf2  SALES_ORDER\cf3 (\cf2 ORDERNO\cf3 ),\cf2\par
+PRODUCTNO \cf1 VARCHAR\cf3 (\cf2 6\cf3 )\cf2  \cf1 FOREIGN\cf2  \cf1 KEY\cf2  \cf1 REFERENCES\cf2  PRODUCT_MASTER\cf3 (\cf2 PRODUCT_NO\cf3 ),\cf2\par
+QTYORDERED \cf1 NUMERIC\cf3 (\cf2 8\cf3 ),\cf2\par
+QTYDISP \cf1 NUMERIC\cf3 (\cf2 8\cf3 ),\cf2\par
+PRODUCTRATE \cf1 NUMERIC\cf3 (\cf2 10\cf3 ,\cf2 2\cf3 ),\cf2\par
+ \cf1 PRIMARY\cf2  \cf1 KEY \cf3 (\cf2  ORDERNO \cf3 ,\cf2 PRODUCTNO\cf3 )\cf2\par
+ \cf3 );\cf2\par
+\par
+ \cf1 INSERT\cf2  \cf1 INTO\cf2  Sales_Order_Details\cf1  \cf3 (\cf2 OrderNo\cf3 ,\cf2  ProductNo\cf3 ,\cf2  QtyOrdered\cf3 ,\cf2  QtyDisp\cf3 ,\cf2  ProductRate\cf3 )\cf2  \cf1 VALUES\cf3 (\cf4 'O19001'\cf3 ,\cf2  \cf4 'P0001'\cf3 ,\cf2  4\cf3 ,\cf2  4\cf3 ,\cf2  525\cf3 );\cf2\par
+  \cf1 INSERT\cf2  \cf1 INTO\cf2  Sales_Order_Details\cf1  \cf3 (\cf2 OrderNo\cf3 ,\cf2  ProductNo\cf3 ,\cf2  QtyOrdered\cf3 ,\cf2  QtyDisp\cf3 ,\cf2  ProductRate\cf3 )\cf2  \cf1 VALUES\cf2\par
+\cf1  \cf3 (\cf4 'O19002'\cf3 ,\cf2  \cf4 'P0004'\cf3 ,\cf2  8\cf3 ,\cf2  3\cf3 ,\cf2  925\cf3 ),\cf2\par
+\cf1  \cf3 (\cf4 'O19003'\cf3 ,\cf2  \cf4 'P0003'\cf3 ,\cf2  14\cf3 ,\cf2  10\cf3 ,\cf2  550\cf3 ),\cf2\par
+\cf1  \cf3 (\cf4 'O19004'\cf3 ,\cf2  \cf4 'P0002'\cf3 ,\cf2  10\cf3 ,\cf2  8\cf3 ,\cf2  710\cf3 ),\cf2\par
+\cf1  \cf3 (\cf4 'O19005'\cf3 ,\cf2  \cf4 'P0005'\cf3 ,\cf2  40\cf3 ,\cf2  24\cf3 ,\cf2  250\cf3 );\cf2\par
+\par
+ \cf1 SELECT\cf2  \cf3 *\cf2  \cf1 FROM\cf2  SALES_ORDER_DETAILS\cf3 ;\cf2\par
+\par
+\par
+ \par
+\cf0\f1\fs22 QUESTIONS\par
+\fs32 1.\f2\fs20 Display the names of all the clients.\f1\fs22\par
+\cf2\f0\fs19  \cf1 SELECT\cf2  \cf1 NAME\cf2  \cf1 FROM\cf2  CLIENT_MASTER\cf3 ;\par
+\f3\fs22\lang1033 2.\cf0\f2\fs18 Display all the clients who are located in Mumbai. ( changed to kannur )\par
+\tab\cf2\f0\fs19  \cf1 SELECT\cf2  \cf3 *\cf2  \cf1 FROM\cf2  CLIENT_MASTER \cf1 WHERE\cf2  CITY\cf3 =\cf4 'Kannur'\cf3 ;\par
+\par
+\f3 3.\cf5\f0  Display all the products whose selling price is > 500 and < 800.\cf2\par
+ \cf1 SELECT\cf2  \cf3 *\cf2  \cf1 FROM\cf2  PRODUCT_MASTER \cf1 WHERE\cf2  SELLPRICE \cf3 BETWEEN\cf2  500 \cf3 AND\cf2  800\cf3 ;\par
+\par
+\f3 4.\cf5\f0 Display Name, City and State of Clients not in the state of\cf2\par
+\cf5 thamizhnadu\cf2\par
+\cf1 SELECT\cf2  \cf1 NAME\cf3 ,\cf2 CITY\cf3 ,\cf1 STATE\cf2  \cf1 FROM\cf2  CLIENT_MASTER \cf1 WHERE\cf2  \cf1 STATE\cf2  \cf3 !=\cf4 'thamizhnadu'\cf3 ;\par
+\par
+\f3 5.\cf5\f0 Display all the information of client_no C0001 and C0002\f3 .\cf2\f0\par
+\cf1 SELECT\cf2  \cf3 *\cf2  \cf1 FROM\cf2  CLIENT_MASTER \cf1 WHERE\cf2  CLIENT_NO \cf3 IN(\cf4 'C0001'\cf2  \cf3 ,\cf4 'C0002'\cf3 );\par
+\par
+\f3 6.\cf5\f0 Change the selling price of '1.44 drive' to Rs. 1150.50.\cf2\par
+\cf6 UPDATE\cf2  PRODUCT_MASTER \cf1 SET\cf2  SELLPRICE \cf3 =\cf2 1150.50 \cf1 WHERE\cf2  SELLPRICE\cf3 =\cf2 560\cf3 ;\par
+\par
+\f3 7. \cf5\f0 Delete the record of client_no C0008.\cf2\par
+\cf1 DELETE\cf2  \cf1 FROM\cf2  CLIENT_MASTER \cf1 WHERE\cf2  CLIENT_NO\cf3 =\cf4 'C0008'\cf3 ;\par
+\par
+\f3 8.\cf5\f0  Display the clients who stay in a city whose second letter is 'a'\cf2\par
+\cf1 SELECT\cf2  \cf3 *\cf2  \cf1 FROM\cf2  CLIENT_MASTER \cf1 WHERE\cf2  CITY \cf3 LIKE\cf2  \cf4 '_a%'\cf3 ;\par
+\par
+\f3 9.\cf5\f0  Count the number of products having price greater than or equal to\cf2\par
+\cf5 800.\cf2\par
+\cf1 SELECT\cf2  \cf6 COUNT\cf3 (\cf2 PRODUCT_NO\cf3 )\cf2  \cf1 FROM\cf2  PRODUCT_MASTER \cf1 WHERE\cf2  SELLPRICE \cf3 >=\cf2  800\cf3 ;\cf0\f1\fs22\lang9\par
+}
+ 
