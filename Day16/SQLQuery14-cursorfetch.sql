@@ -1,0 +1,11 @@
+DECLARE @Personid int;
+DECLARE PERSON_CURSOR CURSOR
+FOR
+SELECT @Personid from Persons order by Personid;
+OPEN PERSON_CURSOR;
+FETCH NEXT FROM PERSON_CURSOR INTO @Personid;
+while @@FETCH_STATUS =0
+begin fetch next from PERSON_CURSOR INTO @Personid
+end
+close PERSON_CURSOR
+DEALLOCATE PERSON_CURSOR

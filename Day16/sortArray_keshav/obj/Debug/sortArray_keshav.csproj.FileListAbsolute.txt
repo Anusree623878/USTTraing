@@ -1,0 +1,8 @@
+D:\UST_Training\Day16\sortArray_keshav\bin\Debug\sortArray_keshav.exe.config
+D:\UST_Training\Day16\sortArray_keshav\bin\Debug\sortArray_keshav.exe
+D:\UST_Training\Day16\sortArray_keshav\bin\Debug\sortArray_keshav.pdb
+D:\UST_Training\Day16\sortArray_keshav\obj\Debug\sortArray_keshav.csproj.AssemblyReference.cache
+D:\UST_Training\Day16\sortArray_keshav\obj\Debug\sortArray_keshav.csproj.SuggestedBindingRedirects.cache
+D:\UST_Training\Day16\sortArray_keshav\obj\Debug\sortArray_keshav.csproj.CoreCompileInputs.cache
+D:\UST_Training\Day16\sortArray_keshav\obj\Debug\sortArray_keshav.exe
+D:\UST_Training\Day16\sortArray_keshav\obj\Debug\sortArray_keshav.pdb

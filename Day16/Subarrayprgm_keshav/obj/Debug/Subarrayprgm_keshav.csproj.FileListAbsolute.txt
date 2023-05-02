@@ -1,0 +1,8 @@
+D:\UST_Training\Day16\Subarrayprgm_keshav\bin\Debug\Subarrayprgm_keshav.exe.config
+D:\UST_Training\Day16\Subarrayprgm_keshav\bin\Debug\Subarrayprgm_keshav.exe
+D:\UST_Training\Day16\Subarrayprgm_keshav\bin\Debug\Subarrayprgm_keshav.pdb
+D:\UST_Training\Day16\Subarrayprgm_keshav\obj\Debug\Subarrayprgm_keshav.csproj.AssemblyReference.cache
+D:\UST_Training\Day16\Subarrayprgm_keshav\obj\Debug\Subarrayprgm_keshav.csproj.SuggestedBindingRedirects.cache
+D:\UST_Training\Day16\Subarrayprgm_keshav\obj\Debug\Subarrayprgm_keshav.csproj.CoreCompileInputs.cache
+D:\UST_Training\Day16\Subarrayprgm_keshav\obj\Debug\Subarrayprgm_keshav.exe
+D:\UST_Training\Day16\Subarrayprgm_keshav\obj\Debug\Subarrayprgm_keshav.pdb

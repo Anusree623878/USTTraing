@@ -1,0 +1,7 @@
+DECLARE @Personid int;
+DECLARE PERSON_CURSOR CURSOR
+FOR
+SELECT @Personid from Persons order by Personid;
+OPEN PERSON_CURSOR;
+FETCH NEXT FROM PERSON_CURSOR INTO @Personid;
+
