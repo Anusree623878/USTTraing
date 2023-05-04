@@ -1,0 +1,8 @@
+D:\UST_Training\Day23\StudentLinqMethod\bin\Debug\StudentLinqMethod.exe.config
+D:\UST_Training\Day23\StudentLinqMethod\bin\Debug\StudentLinqMethod.exe
+D:\UST_Training\Day23\StudentLinqMethod\bin\Debug\StudentLinqMethod.pdb
+D:\UST_Training\Day23\StudentLinqMethod\obj\Debug\StudentLinqMethod.csproj.AssemblyReference.cache
+D:\UST_Training\Day23\StudentLinqMethod\obj\Debug\StudentLinqMethod.csproj.SuggestedBindingRedirects.cache
+D:\UST_Training\Day23\StudentLinqMethod\obj\Debug\StudentLinqMethod.csproj.CoreCompileInputs.cache
+D:\UST_Training\Day23\StudentLinqMethod\obj\Debug\StudentLinqMethod.exe
+D:\UST_Training\Day23\StudentLinqMethod\obj\Debug\StudentLinqMethod.pdb
