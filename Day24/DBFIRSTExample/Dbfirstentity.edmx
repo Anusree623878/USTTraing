@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="DBFIRSTModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Project">
+          <Key>
+            <PropertyRef Name="ProjectId" />
+          </Key>
+          <Property Name="ProjectId" Type="varchar" MaxLength="10" Nullable="false" />
+          <Property Name="ProjectName" Type="varchar" MaxLength="20" />
+        </EntityType>
+        <EntityType Name="StudProject">
+          <Key>
+            <PropertyRef Name="StudId" />
+          </Key>
+          <Property Name="StudId" Type="int" Nullable="false" />
+          <Property Name="StudName" Type="varchar" MaxLength="30" />
+          <Property Name="ProjectId" Type="varchar" MaxLength="10" />
+        </EntityType>
+        <Association Name="FK__StudProje__Proje__3C69FB99">
+          <End Role="Project" Type="Self.Project" Multiplicity="0..1" />
+          <End Role="StudProject" Type="Self.StudProject" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Project">
+              <PropertyRef Name="ProjectId" />
+            </Principal>
+            <Dependent Role="StudProject">
+              <PropertyRef Name="ProjectId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="DBFIRSTModelStoreContainer">
+          <EntitySet Name="Project" EntityType="Self.Project" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="StudProject" EntityType="Self.StudProject" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK__StudProje__Proje__3C69FB99" Association="Self.FK__StudProje__Proje__3C69FB99">
+            <End Role="Project" EntitySet="Project" />
+            <End Role="StudProject" EntitySet="StudProject" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="DBFIRSTModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Project">
+          <Key>
+            <PropertyRef Name="ProjectId" />
+          </Key>
+          <Property Name="ProjectId" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="ProjectName" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="StudProjects" Relationship="Self.FK__StudProje__Proje__3C69FB99" FromRole="Project" ToRole="StudProject" />
+        </EntityType>
+        <EntityType Name="StudProject">
+          <Key>
+            <PropertyRef Name="StudId" />
+          </Key>
+          <Property Name="StudId" Type="Int32" Nullable="false" />
+          <Property Name="StudName" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Name="ProjectId" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="Project" Relationship="Self.FK__StudProje__Proje__3C69FB99" FromRole="StudProject" ToRole="Project" />
+        </EntityType>
+        <Association Name="FK__StudProje__Proje__3C69FB99">
+          <End Role="Project" Type="Self.Project" Multiplicity="0..1" />
+          <End Role="StudProject" Type="Self.StudProject" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Project">
+              <PropertyRef Name="ProjectId" />
+            </Principal>
+            <Dependent Role="StudProject">
+              <PropertyRef Name="ProjectId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="DBFIRSTEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Projects" EntityType="Self.Project" />
+          <EntitySet Name="StudProjects" EntityType="Self.StudProject" />
+          <AssociationSet Name="FK__StudProje__Proje__3C69FB99" Association="Self.FK__StudProje__Proje__3C69FB99">
+            <End Role="Project" EntitySet="Projects" />
+            <End Role="StudProject" EntitySet="StudProjects" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="DBFIRSTModelStoreContainer" CdmEntityContainer="DBFIRSTEntities">
+          <EntitySetMapping Name="Projects">
+            <EntityTypeMapping TypeName="DBFIRSTModel.Project">
+              <MappingFragment StoreEntitySet="Project">
+                <ScalarProperty Name="ProjectId" ColumnName="ProjectId" />
+                <ScalarProperty Name="ProjectName" ColumnName="ProjectName" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="StudProjects">
+            <EntityTypeMapping TypeName="DBFIRSTModel.StudProject">
+              <MappingFragment StoreEntitySet="StudProject">
+                <ScalarProperty Name="StudId" ColumnName="StudId" />
+                <ScalarProperty Name="StudName" ColumnName="StudName" />
+                <ScalarProperty Name="ProjectId" ColumnName="ProjectId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
