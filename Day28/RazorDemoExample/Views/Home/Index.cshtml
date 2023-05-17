@@ -1,0 +1,90 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@*<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>*@
+@*
+<a href="mailto:Support@contoso.com">Support@contoso.com</a>*@
+
+@*<p>@DateTime.Now</p>
+<p>@DateTime.IsLeapYear(2016)</p>*@
+
+@*<p>Last week this time: @(DateTime.Now - TimeSpan.FromDays(7))</p>*@
+
+@*<p>Last week: @DateTime.Now - TimeSpan.FromDays(7)</p>*@
+
+@*<p>Last week: 7/7/2016 4:39:52 PM - TimeSpan.FromDays(7)</p>*@
+
+@*@{
+    var joe = new Person(303, "Anusree");
+}
+
+   <p>Id: @(joe.Id)</p>
+    <p>Name: @(joe.Name)</p>*@
+
+@*@("<span>Hello World</span>")*@
+
+
+@*<p>My mother has <span style="color:blue">blue</span> eyes.</p>*@
+@*
+@{
+    var name = "Anusree";
+}
+
+<p> Name is @name</p>*@
+
+@*@Html.Raw("<span>Hello World</span>")*@
+
+@*@{
+    var quote = "The future depends on what you do today. - Mahatma Gandhi";
+}
+
+<p>@quote</p>
+
+@{
+    quote = "Hate cannot drive out hate, only love can do that. - Martin Luther King, Jr.";
+}
+
+<p>@quote</p>*@
+@*
+@{
+    void RenderName(string name)
+    {
+        <p>Name: <strong>@name</strong></p>
+    }
+
+    RenderName("Mahatma Gandhi");
+    RenderName("Martin Luther King, Jr.");
+}*@
+
+@*Implicit Transitions*@
+@*
+@{
+    var inCSharp = true;
+    <p>Now in HTML, was in C# @inCSharp</p>
+}*@
+
+@*@{
+    string[] people = { "Anusree", "arya", "kavya" };
+    @for (var i = 0; i < people.Length; i++)
+{
+    var person = people[i];
+    <text>Name: @person</text>
+    <br>
+}
+
+}*@
+
+@{ var value=10;
+if (value % 2 == 0)
+{
+    <p>The value was even.</p>
+}
+}
+
+
+
+
