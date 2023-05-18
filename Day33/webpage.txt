@@ -1,0 +1,17 @@
+<DOCTYPE html>
+<html>
+  <head>
+	<title> Image mapping web page </title>
+  </head>
+  <body>
+
+	<img src="map.jpeg" usemap="#mymap">
+	<p> endhoo endherooo
+	</p>
+
+<map name="mymap">
+<area shape="circle" coords="157,130 " href="https://www.ust.com/">
+<area shape="rect" coords="353,115,416,114,482,116 " href="https://www.ust.com/">
+<area shape="poly"coords="245,255,310,216,373,257,350,322,272,318 " href="https://www.ust.com/">
+  </body>
+</html>
