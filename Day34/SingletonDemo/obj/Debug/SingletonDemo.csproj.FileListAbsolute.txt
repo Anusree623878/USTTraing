@@ -1,0 +1,8 @@
+D:\UST_Training\Day34\SingletonDemo\bin\Debug\SingletonDemo.exe.config
+D:\UST_Training\Day34\SingletonDemo\bin\Debug\SingletonDemo.exe
+D:\UST_Training\Day34\SingletonDemo\bin\Debug\SingletonDemo.pdb
+D:\UST_Training\Day34\SingletonDemo\obj\Debug\SingletonDemo.csproj.AssemblyReference.cache
+D:\UST_Training\Day34\SingletonDemo\obj\Debug\SingletonDemo.csproj.SuggestedBindingRedirects.cache
+D:\UST_Training\Day34\SingletonDemo\obj\Debug\SingletonDemo.csproj.CoreCompileInputs.cache
+D:\UST_Training\Day34\SingletonDemo\obj\Debug\SingletonDemo.exe
+D:\UST_Training\Day34\SingletonDemo\obj\Debug\SingletonDemo.pdb
