@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Arithmetic Operations
+        </title>
+        <script> 
+            function addition(){
+                var num1=Number(document.getElementById("number1").value);
+                var num2=Number(document.getElementById("number2").value);
+                var sum = num1 + num2;
+                 document.getElementById("res").value = sum;   
+            }
+            function substration(){
+                var num1=Number(document.getElementById("number1").value);
+                var num2=Number(document.getElementById("number2").value);
+                var sum = num1 - num2;
+                 document.getElementById("res").value = sum;   
+            }
+            function division(){
+                var num1=Number(document.getElementById("number1").value);
+                var num2=Number(document.getElementById("number2").value);
+                var sum = num1 / num2;
+                 document.getElementById("res").value = sum;   
+            }
+            function multiplication(){
+                var num1=Number(document.getElementById("number1").value);
+                var num2=Number(document.getElementById("number2").value);
+                var sum = num1 * num2;
+                 document.getElementById("res").value = sum;   
+            }
+        </script>
+    </head>
+
+    <body>
+        <label for=" number1">Number1 : </label>
+        <input type="text" id= "number1" ><br><br>
+
+        <label for=" number1">Number2 : </label>
+        <input type="text" id= "number2" ><br><br>
+
+        <label for=" operator">Enter the Operator : </label>
+        <input type="text" id= "optr" ><br><br>
+
+
+        <label for=" result">Result  : </label>
+        <input type="text" id= "res" ><br>
+
+        <input type="button" value="addition" onclick="addition()">
+        <input type="button" value="substration" onclick="substration()">
+        <input type="button" value="division" onclick="division()">
+        <input type="button" value="multiplication" onclick="multiplication()">
+        
+
+    </body>
+</html>
