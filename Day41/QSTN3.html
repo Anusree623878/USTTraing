@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Delayed Messages</title>
+  <script>
+    function showMessage(message) {
+      var output = document.getElementById("output");
+      output.innerHTML += "<p>" + message + "</p>";
+    }
+    
+    setTimeout(function() {
+      showMessage("It's been 3 seconds!");
+    }, 3000);
+    
+    setTimeout(function() {
+      showMessage("It's been 5 seconds!");
+    }, 5000);
+    
+    setTimeout(function() {
+      showMessage("It's been 10 seconds!");
+    }, 10000);
+  </script>
+</head>
+<body>
+  <div id="output"></div>
+</body>
+</html>

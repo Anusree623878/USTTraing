@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <title>Document</title>
+
+</head>
+
+<body>
+
+  <script>
+
+    var num=[10,1,4,67,2,45,73,4,0,55];
+
+    var arr2 = num.reverse();
+
+    document.writeln(arr2+"<br>");
+
+    document.writeln();
+
+
+
+    document.writeln("\n");
+    
+        for(let i=0;i<10;i++){
+            try{
+            if(arr2[i]>50)
+            {
+                
+                document.writeln(arr2[i] +"<br>");
+            }
+            else{
+                throw Error;
+            }
+        }
+    
+    
+    catch(Error){
+        document.writeln("Error"+"<br>")
+    }
+}
+  </script>
+
+</body>
+
+</html>
+

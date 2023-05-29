@@ -1,0 +1,8 @@
+D:\UST_Training\Day41\AnagramCodingChallengeqstn2\bin\Debug\AnagramCodingChallengeqstn2.exe.config
+D:\UST_Training\Day41\AnagramCodingChallengeqstn2\bin\Debug\AnagramCodingChallengeqstn2.exe
+D:\UST_Training\Day41\AnagramCodingChallengeqstn2\bin\Debug\AnagramCodingChallengeqstn2.pdb
+D:\UST_Training\Day41\AnagramCodingChallengeqstn2\obj\Debug\AnagramCodingChallengeqstn2.csproj.AssemblyReference.cache
+D:\UST_Training\Day41\AnagramCodingChallengeqstn2\obj\Debug\AnagramCodingChallengeqstn2.csproj.SuggestedBindingRedirects.cache
+D:\UST_Training\Day41\AnagramCodingChallengeqstn2\obj\Debug\AnagramCodingChallengeqstn2.csproj.CoreCompileInputs.cache
+D:\UST_Training\Day41\AnagramCodingChallengeqstn2\obj\Debug\AnagramCodingChallengeqstn2.exe
+D:\UST_Training\Day41\AnagramCodingChallengeqstn2\obj\Debug\AnagramCodingChallengeqstn2.pdb

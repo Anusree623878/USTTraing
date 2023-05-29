@@ -1,0 +1,8 @@
+D:\UST_Training\Day41\Codingchng_qstn1Abstract\bin\Debug\Codingchng_qstn1Abstract.exe.config
+D:\UST_Training\Day41\Codingchng_qstn1Abstract\bin\Debug\Codingchng_qstn1Abstract.exe
+D:\UST_Training\Day41\Codingchng_qstn1Abstract\bin\Debug\Codingchng_qstn1Abstract.pdb
+D:\UST_Training\Day41\Codingchng_qstn1Abstract\obj\Debug\Codingchng_qstn1Abstract.csproj.AssemblyReference.cache
+D:\UST_Training\Day41\Codingchng_qstn1Abstract\obj\Debug\Codingchng_qstn1Abstract.csproj.SuggestedBindingRedirects.cache
+D:\UST_Training\Day41\Codingchng_qstn1Abstract\obj\Debug\Codingchng_qstn1Abstract.csproj.CoreCompileInputs.cache
+D:\UST_Training\Day41\Codingchng_qstn1Abstract\obj\Debug\Codingchng_qstn1Abstract.exe
+D:\UST_Training\Day41\Codingchng_qstn1Abstract\obj\Debug\Codingchng_qstn1Abstract.pdb

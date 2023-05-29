@@ -1,0 +1,8 @@
+D:\UST_Training\Day41\Powerof2usinginnerclass\bin\Debug\Powerof2usinginnerclass.exe.config
+D:\UST_Training\Day41\Powerof2usinginnerclass\bin\Debug\Powerof2usinginnerclass.exe
+D:\UST_Training\Day41\Powerof2usinginnerclass\bin\Debug\Powerof2usinginnerclass.pdb
+D:\UST_Training\Day41\Powerof2usinginnerclass\obj\Debug\Powerof2usinginnerclass.csproj.AssemblyReference.cache
+D:\UST_Training\Day41\Powerof2usinginnerclass\obj\Debug\Powerof2usinginnerclass.csproj.SuggestedBindingRedirects.cache
+D:\UST_Training\Day41\Powerof2usinginnerclass\obj\Debug\Powerof2usinginnerclass.csproj.CoreCompileInputs.cache
+D:\UST_Training\Day41\Powerof2usinginnerclass\obj\Debug\Powerof2usinginnerclass.exe
+D:\UST_Training\Day41\Powerof2usinginnerclass\obj\Debug\Powerof2usinginnerclass.pdb

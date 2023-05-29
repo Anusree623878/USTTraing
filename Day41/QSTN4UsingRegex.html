@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Email Categorization</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    
+    th {
+      background-color: #f2f2f2;
+    }
+    
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+    
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+  </style>
+  <script>
+    var emails = [
+      "abc@gmail.com",
+      "frg@yahoo.com",
+      "hgjhg@hotmail.com",
+      "hjkgh@infy.com",
+      "abc@gmail.uom",
+      "frg@yahoo.com",
+      "hgjhg@hotimail.com",
+      "hjkgh@infy.com",
+      // Add more email addresses here
+    ];
+
+    var googleEmails = [];
+    var yahooEmails = [];
+    var hotmailEmails = [];
+    var otherEmails = [];
+
+    var googleRegex = /@gmail\.com$/i;
+    var yahooRegex = /@yahoo\.com$/i;
+    var hotmailRegex = /@hotmail\.com$/i;
+
+    for (var i = 0; i < emails.length; i++) {
+      var email = emails[i];
+
+      if (googleRegex.test(email)) {
+        googleEmails.push(email);
+      } else if (yahooRegex.test(email)) {
+        yahooEmails.push(email);
+      } else if (hotmailRegex.test(email)) {
+        hotmailEmails.push(email);
+      } else {
+        otherEmails.push(email);
+      }
+    }
+
+    function displayEmails(category, emailArray) {
+      var table = document.getElementById("emailTable");
+      var tbody = table.getElementsByTagName("tbody")[0];
+      
+      for (var i = 0; i < emailArray.length; i++) {
+        var row = tbody.insertRow();
+        
+        var cell1 = row.insertCell();
+        cell1.innerHTML = category;
+        
+        var cell2 = row.insertCell();
+        cell2.innerHTML = emailArray[i];
+      }
+    }
+  </script>
+</head>
+<body>
+  <h1>Email Categorization</h1>
+  
+  <table id="emailTable">
+    <thead>
+      <tr>
+        <th>Category</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+  
+  <script>
+    displayEmails("Google", googleEmails);
+    displayEmails("Yahoo", yahooEmails);
+    displayEmails("Hotmail", hotmailEmails);
+    displayEmails("Other", otherEmails);
+  </script>
+</body>
+</html>
