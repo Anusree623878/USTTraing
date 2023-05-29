@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QSTN3", "QSTN3.csproj", "{E5002C99-E103-4118-BE4A-DFC6E260C7EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E5002C99-E103-4118-BE4A-DFC6E260C7EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5002C99-E103-4118-BE4A-DFC6E260C7EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5002C99-E103-4118-BE4A-DFC6E260C7EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5002C99-E103-4118-BE4A-DFC6E260C7EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BA0455C2-268C-4A3D-9001-F0D64F80E5A6}
+	EndGlobalSection
+EndGlobal
