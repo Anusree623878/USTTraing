@@ -1,0 +1,8 @@
+D:\UST_Training\Day40\Powerof2prgm1\bin\Debug\Powerof2prgm1.exe.config
+D:\UST_Training\Day40\Powerof2prgm1\bin\Debug\Powerof2prgm1.exe
+D:\UST_Training\Day40\Powerof2prgm1\bin\Debug\Powerof2prgm1.pdb
+D:\UST_Training\Day40\Powerof2prgm1\obj\Debug\Powerof2prgm1.csproj.AssemblyReference.cache
+D:\UST_Training\Day40\Powerof2prgm1\obj\Debug\Powerof2prgm1.csproj.SuggestedBindingRedirects.cache
+D:\UST_Training\Day40\Powerof2prgm1\obj\Debug\Powerof2prgm1.csproj.CoreCompileInputs.cache
+D:\UST_Training\Day40\Powerof2prgm1\obj\Debug\Powerof2prgm1.exe
+D:\UST_Training\Day40\Powerof2prgm1\obj\Debug\Powerof2prgm1.pdb

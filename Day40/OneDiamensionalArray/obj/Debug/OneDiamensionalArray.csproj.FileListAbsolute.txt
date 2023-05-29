@@ -1,0 +1,8 @@
+D:\UST_Training\Day40\OneDiamensionalArray\bin\Debug\OneDiamensionalArray.exe.config
+D:\UST_Training\Day40\OneDiamensionalArray\bin\Debug\OneDiamensionalArray.exe
+D:\UST_Training\Day40\OneDiamensionalArray\bin\Debug\OneDiamensionalArray.pdb
+D:\UST_Training\Day40\OneDiamensionalArray\obj\Debug\OneDiamensionalArray.csproj.AssemblyReference.cache
+D:\UST_Training\Day40\OneDiamensionalArray\obj\Debug\OneDiamensionalArray.csproj.SuggestedBindingRedirects.cache
+D:\UST_Training\Day40\OneDiamensionalArray\obj\Debug\OneDiamensionalArray.csproj.CoreCompileInputs.cache
+D:\UST_Training\Day40\OneDiamensionalArray\obj\Debug\OneDiamensionalArray.exe
+D:\UST_Training\Day40\OneDiamensionalArray\obj\Debug\OneDiamensionalArray.pdb

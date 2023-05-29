@@ -1,0 +1,8 @@
+D:\UST_Training\Day40\PowerOfTwoAnotherMethod\bin\Debug\PowerOfTwoAnotherMethod.exe.config
+D:\UST_Training\Day40\PowerOfTwoAnotherMethod\bin\Debug\PowerOfTwoAnotherMethod.exe
+D:\UST_Training\Day40\PowerOfTwoAnotherMethod\bin\Debug\PowerOfTwoAnotherMethod.pdb
+D:\UST_Training\Day40\PowerOfTwoAnotherMethod\obj\Debug\PowerOfTwoAnotherMethod.csproj.AssemblyReference.cache
+D:\UST_Training\Day40\PowerOfTwoAnotherMethod\obj\Debug\PowerOfTwoAnotherMethod.csproj.SuggestedBindingRedirects.cache
+D:\UST_Training\Day40\PowerOfTwoAnotherMethod\obj\Debug\PowerOfTwoAnotherMethod.csproj.CoreCompileInputs.cache
+D:\UST_Training\Day40\PowerOfTwoAnotherMethod\obj\Debug\PowerOfTwoAnotherMethod.exe
+D:\UST_Training\Day40\PowerOfTwoAnotherMethod\obj\Debug\PowerOfTwoAnotherMethod.pdb

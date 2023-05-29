@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Powerof2prgm1", "Powerof2prgm1.csproj", "{E6D29007-CCA7-4B93-9715-8C05A0451A71}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6D29007-CCA7-4B93-9715-8C05A0451A71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6D29007-CCA7-4B93-9715-8C05A0451A71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6D29007-CCA7-4B93-9715-8C05A0451A71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6D29007-CCA7-4B93-9715-8C05A0451A71}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {04F1FFA0-0B04-4BB8-90A6-995376F8179F}
+	EndGlobalSection
+EndGlobal
