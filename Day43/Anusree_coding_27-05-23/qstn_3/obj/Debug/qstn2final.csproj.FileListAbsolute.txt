@@ -1,0 +1,16 @@
+D:\UST_Training\Day43\Anusree_coding_27-05-23\qstn2final\bin\Debug\qstn2final.exe.config
+D:\UST_Training\Day43\Anusree_coding_27-05-23\qstn2final\bin\Debug\qstn2final.exe
+D:\UST_Training\Day43\Anusree_coding_27-05-23\qstn2final\bin\Debug\qstn2final.pdb
+D:\UST_Training\Day43\Anusree_coding_27-05-23\qstn2final\obj\Debug\qstn2final.csproj.AssemblyReference.cache
+D:\UST_Training\Day43\Anusree_coding_27-05-23\qstn2final\obj\Debug\qstn2final.csproj.SuggestedBindingRedirects.cache
+D:\UST_Training\Day43\Anusree_coding_27-05-23\qstn2final\obj\Debug\qstn2final.csproj.CoreCompileInputs.cache
+D:\UST_Training\Day43\Anusree_coding_27-05-23\qstn2final\obj\Debug\qstn2final.exe
+D:\UST_Training\Day43\Anusree_coding_27-05-23\qstn2final\obj\Debug\qstn2final.pdb
+D:\UST_Training\Day43\Anusree_coding_27-05-23\qstn_3\bin\Debug\qstn2final.exe.config
+D:\UST_Training\Day43\Anusree_coding_27-05-23\qstn_3\bin\Debug\qstn2final.exe
+D:\UST_Training\Day43\Anusree_coding_27-05-23\qstn_3\bin\Debug\qstn2final.pdb
+D:\UST_Training\Day43\Anusree_coding_27-05-23\qstn_3\obj\Debug\qstn2final.csproj.AssemblyReference.cache
+D:\UST_Training\Day43\Anusree_coding_27-05-23\qstn_3\obj\Debug\qstn2final.csproj.SuggestedBindingRedirects.cache
+D:\UST_Training\Day43\Anusree_coding_27-05-23\qstn_3\obj\Debug\qstn2final.csproj.CoreCompileInputs.cache
+D:\UST_Training\Day43\Anusree_coding_27-05-23\qstn_3\obj\Debug\qstn2final.exe
+D:\UST_Training\Day43\Anusree_coding_27-05-23\qstn_3\obj\Debug\qstn2final.pdb
