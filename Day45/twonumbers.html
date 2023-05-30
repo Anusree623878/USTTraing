@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <script>
+            function PositiveNegative(){
+                var num1=Number(document.getElementById("num1").value);
+                var num2=Number(document.getElementById("num2").value);
+
+                if((num1<0&&num2>0)||(num1>0&&num2<0)){
+                     msg="one is positive and one is negative";
+                }
+                else{
+                    msg="two numbers have same sign";
+                }
+
+                alert(msg);
+            }
+
+        </script>
+
+
+        <label for=" num1">Number1: </label>
+        <input type="text" id="num1"><br>
+
+        <label for=" num1">Number1: </label>
+        <input type="text" id="num2"><br>
+
+        <input type="button" value="check" onclick="PositiveNegative()">
+
+    </body>
+</html>

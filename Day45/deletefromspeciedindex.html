@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <script>
+            var word=window.prompt("Enter the string");
+            var index=window.prompt("Enter the index value:");
+
+            var charArray=word.split('');
+            charArray.splice(index,1);
+            var modified=charArray.join('');
+
+            document.writeln("string before removing : ",word);
+            document.writeln("<br>");
+            document.writeln("string After removing: ",modified);
+        </script>
+    </body>
+</html>

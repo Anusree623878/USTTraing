@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+    </head>
+
+    <body>
+        <script>
+            function absdiff(){
+                var x=Number(document.getElementById("num").value);
+
+                if((Math.abs(100-x)<=20)||(Math.abs(400-x)<=20)){
+                    
+                        alert("Integer is within 20 of 100 or 400");
+                    
+                    
+                }
+                else{
+                    alert("Integer is not within 20 of 100 or 400");
+                    }
+            }
+                
+
+        </script>
+
+        <label for="year"> Enter the number : </label>
+        <input type="number"  id="num"><br>
+
+        <input type="button" value="Checkabs" onclick="absdiff()"> 
+
+        
+    </body>
+</html>
