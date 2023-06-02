@@ -1,0 +1,8 @@
+D:\UST_Training\Day46\codingchallenge31\codingchallenge31qstn1\bin\Debug\codingchallenge31qstn1.exe.config
+D:\UST_Training\Day46\codingchallenge31\codingchallenge31qstn1\bin\Debug\codingchallenge31qstn1.exe
+D:\UST_Training\Day46\codingchallenge31\codingchallenge31qstn1\bin\Debug\codingchallenge31qstn1.pdb
+D:\UST_Training\Day46\codingchallenge31\codingchallenge31qstn1\obj\Debug\codingchallenge31qstn1.csproj.AssemblyReference.cache
+D:\UST_Training\Day46\codingchallenge31\codingchallenge31qstn1\obj\Debug\codingchallenge31qstn1.csproj.SuggestedBindingRedirects.cache
+D:\UST_Training\Day46\codingchallenge31\codingchallenge31qstn1\obj\Debug\codingchallenge31qstn1.csproj.CoreCompileInputs.cache
+D:\UST_Training\Day46\codingchallenge31\codingchallenge31qstn1\obj\Debug\codingchallenge31qstn1.exe
+D:\UST_Training\Day46\codingchallenge31\codingchallenge31qstn1\obj\Debug\codingchallenge31qstn1.pdb
