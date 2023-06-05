@@ -1,0 +1,8 @@
+D:\UST_Training\Day48\Anusree_cc\Exceptiontryatchqstn3\bin\Debug\Exceptiontryatchqstn3.exe.config
+D:\UST_Training\Day48\Anusree_cc\Exceptiontryatchqstn3\bin\Debug\Exceptiontryatchqstn3.exe
+D:\UST_Training\Day48\Anusree_cc\Exceptiontryatchqstn3\bin\Debug\Exceptiontryatchqstn3.pdb
+D:\UST_Training\Day48\Anusree_cc\Exceptiontryatchqstn3\obj\Debug\Exceptiontryatchqstn3.csproj.AssemblyReference.cache
+D:\UST_Training\Day48\Anusree_cc\Exceptiontryatchqstn3\obj\Debug\Exceptiontryatchqstn3.csproj.SuggestedBindingRedirects.cache
+D:\UST_Training\Day48\Anusree_cc\Exceptiontryatchqstn3\obj\Debug\Exceptiontryatchqstn3.csproj.CoreCompileInputs.cache
+D:\UST_Training\Day48\Anusree_cc\Exceptiontryatchqstn3\obj\Debug\Exceptiontryatchqstn3.exe
+D:\UST_Training\Day48\Anusree_cc\Exceptiontryatchqstn3\obj\Debug\Exceptiontryatchqstn3.pdb

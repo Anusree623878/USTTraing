@@ -1,0 +1,8 @@
+D:\UST_Training\Day49\Anusree_CC_02_06_23\cc_Qstn2\bin\Debug\cc_Qstn2.exe.config
+D:\UST_Training\Day49\Anusree_CC_02_06_23\cc_Qstn2\bin\Debug\cc_Qstn2.exe
+D:\UST_Training\Day49\Anusree_CC_02_06_23\cc_Qstn2\bin\Debug\cc_Qstn2.pdb
+D:\UST_Training\Day49\Anusree_CC_02_06_23\cc_Qstn2\obj\Debug\cc_Qstn2.csproj.AssemblyReference.cache
+D:\UST_Training\Day49\Anusree_CC_02_06_23\cc_Qstn2\obj\Debug\cc_Qstn2.csproj.SuggestedBindingRedirects.cache
+D:\UST_Training\Day49\Anusree_CC_02_06_23\cc_Qstn2\obj\Debug\cc_Qstn2.csproj.CoreCompileInputs.cache
+D:\UST_Training\Day49\Anusree_CC_02_06_23\cc_Qstn2\obj\Debug\cc_Qstn2.exe
+D:\UST_Training\Day49\Anusree_CC_02_06_23\cc_Qstn2\obj\Debug\cc_Qstn2.pdb
