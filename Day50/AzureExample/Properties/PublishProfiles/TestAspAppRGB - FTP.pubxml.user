@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAkt0uRAILKkq1U8oWOJj36wAAAAACAAAAAAAQZgAAAAEAACAAAACuPaBJhxrTev6zeDo3tlYVDvby/N3aYCJFnIq1pVQmdwAAAAAOgAAAAAIAACAAAAC2RYq0vj0tVrkfcV4b1EIClkQd3jXq9YmI1Ys5RL0hxIAAAADixWhddeUZ7CDTgXU9DCLhEU3e09zTNluYJHsL/EHg34UT+gWXyxLzflfSdYDxWmsjd7iviKHvAHstweQh+xMSMLf3UN+HuA56y3BCN3dPBN45h/b65D4zUfErij/y9BXsLFqpaNgFnsU61oNX7hGrmf6X+tV+7lNUixGdvXLGaEAAAADz1LwMt2WZrJp9hoUGW5ucjQIJKStTjcgRdHns9dBV8vOxui5otf9I11TvQaJAtPKHCJe9SMFYdB+uRk4xXx66</EncryptedPassword>
+    <_PublishTargetUrl>ftps://waws-prod-blu-409.ftp.azurewebsites.windows.net/site/wwwroot</_PublishTargetUrl>
+    <History>True|2023-06-05T06:53:56.8190303Z;False|2023-06-05T12:22:15.4788426+05:30;True|2023-06-05T12:19:56.3484836+05:30;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="appsettings.Development.json">
+      <publishTime>06/05/2023 10:39:13</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>06/05/2023 10:39:13</publishTime>
+    </File>
+    <File Include="AzureExample.deps.json">
+      <publishTime>06/05/2023 12:22:51</publishTime>
+    </File>
+    <File Include="AzureExample.dll">
+      <publishTime>06/05/2023 12:22:51</publishTime>
+    </File>
+    <File Include="AzureExample.exe">
+      <publishTime>06/05/2023 12:22:51</publishTime>
+    </File>
+    <File Include="AzureExample.pdb">
+      <publishTime>06/05/2023 12:22:51</publishTime>
+    </File>
+    <File Include="AzureExample.runtimeconfig.json">
+      <publishTime>06/05/2023 12:18:25</publishTime>
+    </File>
+    <File Include="Microsoft.OpenApi.dll">
+      <publishTime>08/30/2020 01:44:12</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.Swagger.dll">
+      <publishTime>10/16/2021 18:24:10</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.SwaggerGen.dll">
+      <publishTime>10/16/2021 18:24:36</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.SwaggerUI.dll">
+      <publishTime>10/16/2021 18:24:30</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>06/05/2023 12:23:00</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
