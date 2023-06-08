@@ -1,0 +1,8 @@
+D:\UST_Training\Day52\recursion\bin\Debug\recursion.exe.config
+D:\UST_Training\Day52\recursion\bin\Debug\recursion.exe
+D:\UST_Training\Day52\recursion\bin\Debug\recursion.pdb
+D:\UST_Training\Day52\recursion\obj\Debug\recursion.csproj.AssemblyReference.cache
+D:\UST_Training\Day52\recursion\obj\Debug\recursion.csproj.SuggestedBindingRedirects.cache
+D:\UST_Training\Day52\recursion\obj\Debug\recursion.csproj.CoreCompileInputs.cache
+D:\UST_Training\Day52\recursion\obj\Debug\recursion.exe
+D:\UST_Training\Day52\recursion\obj\Debug\recursion.pdb
