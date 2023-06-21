@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fetching JSON Example</title>
+</head>
+<body>
+
+  <script>
+    fetch('data.json')
+      .then(response => response.json())
+      .then(data => {
+        // Work with the JSON data here
+        document.write(data);
+      })
+      .catch(error => {
+        // Handle any errors that occurred during the fetch
+        console.error('Error:', error);
+      });
+  </script>
+
+</body>
+</html>

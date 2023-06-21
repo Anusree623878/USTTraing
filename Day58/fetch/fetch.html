@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2> <i> Using the <span style="color:red">fetch()</span>browser method  </i> to fetch data<span style="color:rgb(92, 28, 218)"> from </span><span style="color:rgb(72, 252, 147)"></span>api</span></h2>
+    <div id="output"> </div>
+
+    <button onclick="fetchData()"> FetchData</button>
+    <script>
+        let output=document.getElementById("output");
+        function fetchData(){
+            fetch('https://jsonplaceholder.typicode.com/posts')
+                .then(response => response.json())
+                .then(data =>{
+                   // output.innerHTML +="id: " +data.userId+ "<br/>";
+                    output.innerHTML +="Title: " +data.title+ "<br/>";
+                    //output.innerHTML +="body: " +data.body+ "<br/>";
+                   
+
+                
+                });
+        }
+        
+    </script>
+</body>
+</html>

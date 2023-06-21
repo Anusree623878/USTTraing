@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="ot"> </div>
+    <script>
+        let ot=document.getElementById("ot");
+        async function findCityWithHighestTemperature() {
+    try {
+      const response = await fetch('weatherData.json');
+      const data = await response.json();
+  
+      let maxTemperature = -Infinity;
+      let cityWithHighestTemperature = '';
+  
+      data.forEach(city => {
+        if (city.temperature > maxTemperature) {
+          maxTemperature = city.temperature;
+          cityWithHighestTemperature = city.name;
+        }
+      });
+  
+      ot.innerHTML='City with the highest temperature:';
+      console.log('City:', cityWithHighestTemperature);
+      console.log('Temperature:', maxTemperature);
+    } catch (error) {
+      console.error('Error:', error);
+    }
+  }
+  
+  findCityWithHighestTemperature();
+  
+    </script>
+</body>
+</html>
