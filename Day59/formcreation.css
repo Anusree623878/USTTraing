@@ -1,0 +1,14 @@
+body{
+	background-color:pink;
+}
+form{
+	background-color:yellow;
+	color:red;
+}
+#btn{
+	color:black;
+	background-color:orange;
+	cursor:pointer;
+}
+
+
