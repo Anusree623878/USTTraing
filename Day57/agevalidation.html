@@ -1,0 +1,67 @@
+<!--Create a HTML form to accept user's name, date of birth, email id. 
+Validate the age of the user and if the age is equal or above 18, 
+allow the user to view a video. Else display error message 
+that you are not eligible to play the video. Validate the email -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script> 
+    function validation(){
+        var email=document.getElementById("email").value;
+        var yr=document.getElementById("dob").value;
+       // document.write(yr);
+        let year=new Date(yr).getFullYear();
+        let currentyr=new Date().getFullYear;
+        
+        var ageval=document.getElementById("ageval");
+
+        function validateEmail(email){
+            const emailpattern= /^[0-9A-Za-z._%+-]+@[0-9A-Za-z.-]+\.[a-zA-Z]{2,}$/;
+            return emailpattern.test(email);
+        }
+
+        if(currentyr-year >=18 && validateEmail(email)==true ){
+
+            document.getElementById("ageval").innerHTML="You are eligible to play the video";
+            const video=document.createElement('video');
+            video.src = "https://support.microsoft.com/en-us/office/what-is-microsoft-365-for-business-56e60c2b-1929-4a04-bd9b-ff5b844364f3?wt.mc_id=otc_m365basics#";
+            video.type = 'video/mp4';
+            video.width = 640;
+            video.height = 360;
+            video.controls = true;
+            document.body.appendChild(video);
+        }
+        else{
+            document.getElementById("ageval").innerHTML="You are not eligible to play the video";
+        }
+
+    }
+    </script>
+</head>
+<body>
+    <form action=" " >
+    <label> Name</label>
+    <input type="text" id="name" placeholder="name"><br><br>
+
+    <label> Date of Birth</label>
+    <input type="date" id="dob" placeholder="dob"><br><br>
+
+    <label> Email</label>
+    <input type="email" id="email" placeholder="email">
+
+    <p id="emailval"></p>
+    <p id="ageval"></p>
+
+    <input type="button" onclick="validation()" value="Validation">
+
+    </form>
+
+
+
+</body>
+</html>

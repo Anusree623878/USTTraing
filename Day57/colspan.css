@@ -1,0 +1,16 @@
+table{
+    background-color: blanchedalmond;
+    width: 290px ;
+}
+table tr{
+   
+    border: 3px solid rgb(232, 24, 24);
+}
+table th{
+    padding-left: 2px;
+    text-align: left;
+    border: 2px solid blueviolet;
+}
+table td{
+    border: 2px solid palevioletred;
+}

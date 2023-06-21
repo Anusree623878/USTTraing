@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label> User Name: </label>
+    <input type="text" id="uname" placeholder="user name"><br>
+    <p id="vnull"> </p>
+    <br>
+    <label> Password </label>
+    <input type="password" id="pwd" placeholder=" password" oninput="pwdvalid()"><br>
+    <p id="pnull"></p>
+    <p id="pn"></p>
+    <br>
+    <label> Confirm Password </label>
+    <input type="password" id="cnfrmpwd" placeholder="confirm password"><br>
+    <p id="cnull"></p>
+    <br>
+    <p id="cnfrumpwd" > </p>
+    <input type="button" id="pwdvalid" onclick="cnfpwdfun()" value="validation">
+   
+
+    <script>
+        function cnfpwdfun(){
+        var name=document.getElementById("uname").value;
+        var pswd=document.getElementById("pwd").value;
+        var cnpwd=document.getElementById("cnfrmpwd").value;
+
+        var vnull=document.getElementById("vnull")
+        var pnull=document.getElementById("pnull")
+        var cnull=document.getElementById("cnull")
+        var cnfrmpwd=document.getElementById("cnfrumpwd")
+     
+        if(name=="")
+        {
+            document.getElementById("vnull").innerHTML="Value can not be null";
+
+        }
+        if(pswd=="")
+        {
+            document.getElementById("pnull").innerHTML="Value can not be null";
+        }
+        if(cnpwd=="")
+        {
+            document.getElementById("cnull").innerHTML="Value can not be null";
+        }
+        if(pswd !=="" && cnpwd!==""){
+            if(pswd!==cnpwd){
+            document.getElementById("cnfrumpwd").innerHTML="Password Doesnot match";
+            }
+            else{
+            document.getElementById("cnfrumpwd").innerHTML="Password match";
+            }
+    }
+    }
+    function pwdvalid(){
+        var password =document.getElementById("pwd").value;
+        //let reg=/^(?=.*[A-Z])(?=.*[a-z0-9])(?=.*[\d])(?=.*[^a-zA-Z0-9]).{8,}$/;
+        //let reg=/^(?=.*[A-Z])(?=.*[a-z])(?=.*[^A-Za-z0-9]).{8,}$/
+        let reg = /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[^A-Za-z0-9]).{8,}$/;
+
+
+
+        if(reg.test(password)){
+            document.getElementById("pn").innerHTML="Password valid";
+            //pnuull.style.color="red";
+           // pnull.innerHTML=" ";
+           
+
+        }
+        else{
+           
+            document.getElementById("pn").innerHTML="password not valid";
+            //pnuull.innerHTML="";
+        }
+    }
+
+
+    </script>
+
+
+
+</body>
+</html>
